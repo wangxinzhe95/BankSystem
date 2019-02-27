@@ -1,7 +1,7 @@
 A simple banking system is to be developed with the intention of providing a generic, reusable system from which to develop more realistic systems. The requirements of the system are to offer a number of different accounts, each of which provides specific services to the customer. The following are all types of accounts that must be supported by the system:  
 * Saver account
 * Junior account
-* Current account
+* Current account  
 When a customer joins the bank, they are required choose an account type to open, and must credit it with a minimum figure. A customer may open more than one type of account.
 The following core functions are to be supported by the system:  
 1. Open Account: In order to open an account, the customer must provide the
@@ -9,7 +9,7 @@ following information:
 * name
 * address
 * date of birth
-* type of account to be opened
+* type of account to be opened  
 Only customers under the age of 16 may open a Junior account. To determine the credit status of a customer, the bank sends the customer's details to a Credit Agency, who then carries out a credit search. Provided that the customer has a satisfactory credit history, a new account is opened. Each account has a unique account number. A customer is also issued a separate personal identification number (PIN) for that account.  
 2. Deposit Funds: Funds may be deposited in an account provided that the depositor provides the appropriate account number. When funds are deposited, they are either cleared (the funds have been fully credited, e.g Cash), or un-cleared (transfer of funds is pending, e.g. using Cheque). Cleared funds are immediately credited to the account.
 3. Clear Funds: An external bank clearing system periodically clears un-cleared funds. Once cleared, they are immediately credited to the account.  
